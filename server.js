@@ -57,8 +57,8 @@ app.use(function(req, res, next) {
 });
 
 var users = {
-    john: {
-        name: 'john'
+    someone: {
+        name: 'someone'
     }
 };
 
@@ -67,8 +67,8 @@ var users = {
 hash('foobar', function(err, salt, hash) {
     if (err) throw err;
     // store the salt & hash in the "db"                                                                                                             
-    users.john.salt = salt;
-    users.john.hash = hash.toString();
+    users.someone.salt = salt;
+    users.someone.hash = hash.toString();
 });
 
 function authenticate(name, pass, fn) {
