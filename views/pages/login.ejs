@@ -1,0 +1,53 @@
+<!--
+jMarks has been brought to you by thearchitect@nousacademy.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/jmarks.css">
+
+
+</head>
+
+<body class="loginScreen">
+    <%- message %>
+        <!--Try accessing <a href="/bookmarks">/bookmarks</a>, then authenticate with "tj" and "foobar".-->
+
+        <div class="container">
+
+
+            <div class="text-center">
+                <h1 class="loginLogo">jMarks</h1>
+
+
+                <!--a href="/bookmarks" class="btn btn-default"><span class="glyphicon glyphicon-user"></span> Login</a-->
+
+                <form method="post" action="/bookmarks">
+                    <p>
+                        <label>Username:</label>
+                        <input type="text" name="username">
+                    </p>
+                    <p>
+                        <label>Password:</label>
+                        <input type="text" name="password">
+                    </p>
+                    <p>
+                        <input type="submit" value="Login" class="btn btn-default">
+                    </p>
+                </form>
+
+            </div>
+
+
+
+        </div>
+        <script>
+            console.log("%cjMarks was written by The Architect.\n%cYou can contact The Architect at thearchitect@nousacademy.com or see more of his work at https://github.com/nousacademy.", "font-size:1.5em;color:#E5C100;", "color:#5C1616;font-size:1em;")
+        </script>
+</body>
+
+</html>

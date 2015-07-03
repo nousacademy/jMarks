@@ -1,0 +1,175 @@
+.jmarksLogo {
+    font-family: cursive;
+    color: black!important;
+}
+.contentArea {
+    margin-top: 60px;
+}
+.login {
+    margin-top: 60px;
+}
+#loginModal {
+    display: block;
+}
+.logOut {
+    margin-top: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+}
+.list-group-item {
+    background: white;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.list-group-item:hover {
+    background: rgb(0, 196, 255);
+    color: black;
+}
+input {
+    border: 1px solid black;
+}
+#signIn {
+    background-color: black;
+    color: white;
+}
+#signIn:hover {
+    background-color: rgb(0, 196, 255);
+    color: black;
+}
+.title {
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+a:active {
+    color: #DA2929;
+}
+a.title:hover {
+    text-decoration: none;
+    color: #DA2929;
+}
+a:focus {
+    color: #DA2929;
+    text-decoration: none;
+}
+.glyphicon-bookmark {
+    color: rgba(226, 191, 3, 0.86);
+    margin-right: 10px;
+}
+.glyphicon-time {
+    margin-right: 10px;
+}
+.glyphicon-book {
+    margin-right: 10px;
+}
+.glyphicon-plus-sign {
+    cursor: pointer;
+    font-size: 22px;
+    color: black;
+}
+.glyphicon-plus-sign:hover {
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+}
+.glyphicon-ok-sign,
+.glyphicon-edit,
+.glyphicon-chevron-left {
+    cursor: pointer;
+}
+.glyphicon-ok-sign {
+    margin-right: 10px;
+}
+.glyphicon-ok-sign:hover {
+    color: #1EC11E;
+}
+.glyphicon-chevron-left {
+    margin-right: 5%;
+}
+.glyphicon-remove-sign {
+    margin-left: 3px;
+}
+.glyphicon-remove-sign:hover {
+    color: red;
+}
+.glyphicon-save-file {
+    color: black;
+}
+.glyphicon-save-file:hover {
+    cursor: pointer;
+}
+.glyphicon-edit {
+    margin-right: 10px;
+}
+.panel {
+    border: 1px solid black;
+    box-shadow: 3px 3px 2px #888888;
+}
+.panel-footer {
+    padding: 0;
+}
+span.delete {
+    cursor: pointer;
+}
+.description {
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+canvas {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.jMarkBtn {
+    background: black;
+    color: white;
+    box-shadow: 4px 3px 0px #888888;
+}
+.jMarkBtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.jMarkBtn:active {
+    color: white;
+    text-decoration: none;
+}
+.jMarkBtn:focus {
+    color: white;
+    text-decoration: none;
+}
+.ui-draggable-dragging {
+    z-index: 10000!important
+}
+.add {
+    margin-top: 20px;
+}
+.loginScreen {
+    background: url('../img/books.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.loginLogo {
+    font-family: cursive;
+    color: white;
+    text-shadow: 1px 3px 1px black;
+}
+.errorScreen {
+    background: url('../img/fire.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.error{
+    color: red;
+}
