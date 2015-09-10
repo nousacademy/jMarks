@@ -18,7 +18,7 @@ Firefox will implement the new API on December 15th!
 
 <a href="https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/">https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/</a>
 
-(In case your wondering there are over 5,000 bookmarks!!!)
+(In case you're wondering there are over 5,000 bookmarks!!!)
 
 <strong>TODO LIST</strong>
 
