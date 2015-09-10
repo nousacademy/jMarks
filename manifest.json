@@ -1,0 +1,32 @@
+{
+    "name": "jMarks",
+    "version": "0.2",
+    "manifest_version": 2,
+    "description": "Custom bookmark manager that is synced with AWS S3. For any feature requests please post an issue at the Developer Website.",
+    "homepage_url": "https://github.com/nousacademy/jMarks/issues",
+    "icons": {
+        "16": "icons/19.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "default_locale": "en",
+    "browser_action": {
+        "default_icon": "icons/19.png",
+        "default_title": "jMarks - by John"
+    },
+    "chrome_url_overrides": {
+        "bookmarks": "jmarks.html"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    },
+    "permissions": [
+        "bookmarks",
+        "contextMenus",
+        "https://*/*",
+        "contextMenus",
+        "tabs"
+    ],
+    "content_security_policy": "script-src 'self' https://sdk.amazonaws.com/* 'unsafe-eval'; object-src 'self'"
+
+}

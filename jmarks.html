@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- 
+    ___          ___           ___           ___           ___           ___     
+   /  /\        /__/\         /  /\         /  /\         /__/|         /  /\    
+  /  /:/       |  |::\       /  /::\       /  /::\       |  |:|        /  /:/_   
+ /__/::\       |  |:|:\     /  /:/\:\     /  /:/\:\      |  |:|       /  /:/ /\  
+ \__\/\:\    __|__|:|\:\   /  /:/~/::\   /  /:/~/:/    __|  |:|      /  /:/ /::\ 
+    \  \:\  /__/::::| \:\ /__/:/ /:/\:\ /__/:/ /:/___ /__/\_|:|____ /__/:/ /:/\:\
+     \__\:\ \  \:\~~\__\/ \  \:\/:/__\/ \  \:\/:::::/ \  \:\/:::::/ \  \:\/:/~/:/
+     /  /:/  \  \:\        \  \::/       \  \::/~~~~   \  \::/~~~~   \  \::/ /:/ 
+    /__/:/    \  \:\        \  \:\        \  \:\        \  \:\        \__\/ /:/  
+    \__\/      \  \:\        \  \:\        \  \:\        \  \:\         /__/:/   
+                \__\/         \__\/         \__\/         \__\/         \__\/    
+
+- by The Architect, see more of his work at https://github.com/nousacademy or contact him at thearchitect@nousacademy.com
+
+-->
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>jMarks - Bookmarks simplified.</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jmarks.css">
+</head>
+
+<body>
+
+    <div class="container contentArea">
+        <!-- Container -->
+
+        <div class="col-md-4">
+            <!-- Folder Area-->
+
+            <div class="post">
+                <span id="topLvlFolder" class="glyphicon glyphicon-plus-sign"></span>
+                <input type="text" class="input-sm" placeholder="Add Book" id='topLevel'>
+            </div>
+
+            <br>
+            <br>
+            <ul class="list-group"></ul>
+
+        </div>
+        <div class="col-md-8">
+            <!--Folder Content Area -->
+
+            <button class="btn jMarkBtn"><span class="glyphicon glyphicon-duplicate"></span> Add Bookmark</button>
+
+            <div class="add"></div>
+
+            <div class="static"></div>
+
+        </div>
+    </div>
+    <script src="js/aws-sdk-2.1.39.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/canvas.js"></script>
+    <script src="js/jmarks.js"></script>
+</body>
+
+</html>
