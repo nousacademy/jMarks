@@ -30,3 +30,26 @@ Firefox will implement the new API on December 15th!
 <strong>Requested features</strong>
 
 - File an issue at: https://github.com/nousacademy/jMarks/issues
+
+_______________________________________________________________________________________________________________
+
+<h3>Demo</h3>
+
+This extension is configured to work with AWS's Simple Storage Service or S3. In order to run your own version of this extension you'll have to: 
+
+1) Clone this repo
+<br>
+2) Sign up for AWS S3 at "https://aws.amazon.com/s3/" if you don't already have it
+<br>
+3) In jmarks.js put your ACCESS KEY ID, SECRET ACCESS KEY, REGION, BUCKET, and Prefix, where applicable (provided by AWS)
+<br>
+4) Go to "chrome://extensions/" on your Chrome browser
+<br>
+5) Click "Unload unpacked extension..."
+<br>
+
+A tiny "J" logo will appear on the right side of your browser, you can either click it, visit "chrome://bookmarks/", or simply press <code>Command + D</code> and you will now have jMarks running synced with AWS.
+
+AWS offers up to 1TB of data and is free for a year.
+Enjoy!
+
