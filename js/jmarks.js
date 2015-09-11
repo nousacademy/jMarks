@@ -1,25 +1,17 @@
  AWS.config.update({
-     accessKeyId: "xxxxxxxxx",
-     secretAccessKey: "xxxxxxxxxx",
-     region: 'xxxxxx'
+     accessKeyId: "YOUR ACCESS KEY ID",
+     secretAccessKey: "YOUR SECRET ACCESS KEY",
+     region: 'YOUR REGION'
  });
 
 
  var awsGetLoad = new AWS.S3({
      params: {
-         Bucket: 'xxxxxxxx',
-         Prefix: 'xxxxxxxx',
-         Delimiter: '/'
+         Bucket: 'YOUR BUCKET',
+         Prefix: 'PATH TO FOLDER',
+         Delimiter: '/' // STOP AT PREFIX FOLDER
      }
  });
-
- //function string2Bin(str) {
- //  var result = [];
- //  for (var i = 0; i < str.length; i++) {
- //    result.push(str.charCodeAt(i));
- //  }
- //  return result;
- //}
 
  function bin2String(array) {
      return String.fromCharCode.apply(String, array);
@@ -209,7 +201,7 @@
                                  console.log(created + ' ' + title + ' ' + description + ' ' + canvasData)
 
                                  var params = {
-                                     Bucket: 'xxxxxxxxxx',
+                                     Bucket: 'YOUR BUCKET',
                                      Key: changedFile,
                                      Body: JSON.stringify({
                                          website: website,
@@ -277,7 +269,7 @@
          var s3 = new AWS.S3();
 
          var params = {
-             Bucket: 'xxxxxxxxxx',
+             Bucket: 'YOUR BUCKET',
              Key: folder,
              Body: JSON.stringify({
                  website: website,
@@ -337,7 +329,7 @@
      if (confirm('Are you sure you want to delete this Book - ' + deleteReq + ' ?')) {
          var s3 = new AWS.S3();
          var params = {
-             Bucket: 'xxxxxxxx',
+             Bucket: 'YOUR BUCKET',
              Delete: {
                  Objects: [{
                      Key: deleteReq
@@ -357,7 +349,7 @@
      if (confirm('Are you sure you want to delete Bookmark ' + bookmark + ' ?')) {
          var s3 = new AWS.S3();
          var params = {
-             Bucket: 'xxxxxxxxx',
+             Bucket: 'YOUR BUCKET',
              Delete: {
                  Objects: [{
                      Key: bookmark
@@ -384,7 +376,7 @@
                  var folder = $(this).attr('title');
                  var s3 = new AWS.S3();
                  var params = {
-                     Bucket: 'xxxxxxxxx',
+                     Bucket: 'YOUR BUCKET',
                      Key: folder + masterFldr + '/'
                  }
 
@@ -449,7 +441,7 @@
 
              var s3 = new AWS.S3();
              var params = {
-                 Bucket: 'xxxxxxxx',
+                 Bucket: 'YOUR BUCKET',
                  Key: folder + rndm + '.json',
                  Body: JSON.stringify({
                      website: $('#newWebsite').val(),
