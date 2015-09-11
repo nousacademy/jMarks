@@ -53,13 +53,13 @@ A tiny "J" logo will appear on the right side of your browser, you can either cl
 AWS offers up to 1TB of data and is free for a year.
 Enjoy!
 
+<img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks4.png">
+<br>
 <img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks1.png">
 <br>
 <img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks2.png">
 <br>
 <img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks3.png">
-<br>
-<img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks4.png">
 <br>
 <img src="https://raw.githubusercontent.com/nousacademy/jMarks/master/img/jmarks5.png">
 <br>
